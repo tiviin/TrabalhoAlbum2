@@ -1,0 +1,57 @@
+@media only screen and (max-width: 500px) {
+    .footer1 {
+      display: none;
+    }
+  }
+  @media only screen and (min-width: 501px) {
+    .footer2 {
+      display: none;
+    }
+  }
+
+.imagenstamanho {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.tamanhodiv {
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+}
+.bi {
+    width: 30px;
+    height: 30px;
+}
+a.icon-block {
+    display:inline-block;
+    width:4em;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 20px;
+  color:black;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+margin: 0px 200px;
+}
+
+
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: rgb(255, 255, 255); 
+    filter: brightness(90%); 
+  }
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgb(0, 0, 0);
+}
+
+
+#map { position: relative; width: 1000px; height: 25em;}
